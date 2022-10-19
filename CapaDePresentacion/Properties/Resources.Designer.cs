@@ -63,6 +63,37 @@ namespace CapaDePresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_salir {
+            get {
+                object obj = ResourceManager.GetObject("logo salir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_health_care_light_blue_light_shadow_cross_abstract_background_image_904158 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-health-care-light-blue-light-shadow-cross-abstract-background-image_90415" +
+                        "8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Swiss_pharmacy_logo__old__svg {
             get {
                 object obj = ResourceManager.GetObject("Swiss_pharmacy_logo_(old).svg", resourceCulture);

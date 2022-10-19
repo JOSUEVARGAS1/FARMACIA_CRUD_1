@@ -30,26 +30,35 @@ namespace CapaDePresentacion
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(495, 100);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(355, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 52);
+            this.label1.Size = new System.Drawing.Size(186, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "SOPORTE";
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Location = new System.Drawing.Point(224, 195);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(454, 212);
+            this.panel1.TabIndex = 1;
+            // 
             // Formsoporte
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1180, 790);
+            this.ClientSize = new System.Drawing.Size(885, 642);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Formsoporte";
             this.Text = "FormSOPORTE";
             this.ResumeLayout(false);
@@ -60,5 +69,6 @@ namespace CapaDePresentacion
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

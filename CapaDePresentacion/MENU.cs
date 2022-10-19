@@ -176,6 +176,65 @@ namespace CapaDePresentacion
             hijopanel1.BringToFront();
             hijopanel1.Show();
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelbarramenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frsesion frprincipal = new frsesion();
+            this.Hide();
+            frprincipal.Show();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            frsesion frprincipal = new frsesion();
+            this.Hide();
+            frprincipal.Show();
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            openform(new formlistaproducto());
+        }
+
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            openform(new Formreporte());
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            openform(new formventas());
+        }
+
+        private void hora_Tick(object sender, EventArgs e)
+        {
+            lbhora.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            openform(new Formcompra());
+        }
     }
 
 
